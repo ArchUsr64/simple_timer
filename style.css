@@ -1,6 +1,9 @@
+body {
+	margin: 0px;
+}
 #main_view {
+	margin: 0px;
 	width: 100vw;
 	height: 100vh;
 	background-color: blue;
-	margin-left: 0px;
 }
