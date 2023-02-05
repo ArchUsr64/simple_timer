@@ -13,6 +13,8 @@ let duration = DEFAULT_DURATION_IN_MINUTES
 let program_state = States.Alerted
 
 main_view.addEventListener('click', function() {
+	const no_sleep = new NoSleep();
+	no_sleep.enable();
 	switch (program_state) {
 		case States.Running:
 			program_state = States.Alerted
